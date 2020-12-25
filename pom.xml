@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.yukaju</groupId>
-	<artifactId>article-srv</artifactId>
+	<artifactId>user-srv</artifactId>
 	<version>0.0.1</version>
-	<name>article-srv</name>
-	<description>Article service for atabey msa</description>
+	<name>user-srv</name>
+	<description>user service for atabey msa</description>
 
 	<properties>
   <sonar.projectKey>milton-reyes_user-srv</sonar.projectKey>
