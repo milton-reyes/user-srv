@@ -30,7 +30,7 @@ public class Role {
 
 	@NotBlank(message = "Must provide a role name")
 	@Column(unique = true, nullable = false)
-	private String role;
+	private String name;
 
 	@JsonIgnore
 	@OneToMany(cascade = CascadeType.ALL, mappedBy = "role")
